@@ -2,7 +2,10 @@ camel:
   springboot:
     name: ircc-state-persistence
     tracing: false
-
+  rest:
+    api-context-path: api
+    api-component: undertow
+    
 server:
   address: localhost
   port: 8081
